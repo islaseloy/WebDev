@@ -1,0 +1,186 @@
+<!Doctype = HTML>
+<HTML>
+
+<HEAD>
+<meta charset = 'UTF-8'>
+<title>Alta de usuario</title>
+<link rel="stylesheet" href="../css/registry_style.css">
+<link rel="stylesheet" href="../css/BotonReg.css">
+</HEAD>
+
+<BODY>
+<div class="contenedor">
+
+<div> <h1> REGISTRARSE </h1> </div>
+
+<div class = "formulario">
+<form>
+
+<article><label> Nombre: </label><input type="text"></input></article>
+
+<article><label> Apellido: </label><input type="text"></input></article>
+
+<article><label> Tipo documento: </label>
+
+<select>
+<option></option>
+<option>DNI</option>
+<option>LC</option>
+<option>LE</option>
+</select>
+</article>
+
+
+<article><label> Nº Documento: </label> <input type = "text"></input></article>
+
+<article><label> Fecha de nacimiento: </label> <input type ="date"></input></article>
+
+<formset>
+<article><label>Sexo: </label>
+
+<select>
+<option></option>
+<option>Hombre</option>
+<option>Mujer</option>
+<option>Otro</option>
+</select>
+</article>
+
+</formset>
+
+
+<article><label>Nacionalidad: </label>
+
+		<select>
+		<option></option>
+		<optgroup label="Sudamérica">
+		<option value ="ARG">Argentina</option>
+		<option value ="CHI">Chile</option>
+		<option value ="URU">Uruguay</option>
+		<option value ="PER">Perú</option>
+		<option value ="BRA">Brasil</option>
+		<option value ="PAR">Paraguay</option>
+		<option value ="BOL">Bolivia</option>
+		<option value ="COL">Colombia</option>
+		<option value ="VEN">Venezuela</option>
+		<option value ="ECU">Ecuador</option>
+		</optgroup>
+		<optgroup label = "Europa">
+		<option value = "POR">Portugal</option>
+		<option value = "ESP">España</option>
+		<option value = "ENG">Inglaterra</option>
+		<option value = "ITA">Italia</option>
+		<option value = "GET">Alemania</option>
+		</optgroup>
+                
+                <optgroup label = "Asia">
+		<option value = "CHI">China</option>
+		<option value = "JAP">Japón</option>
+		<option value = "COR">Corea del sur</option>
+		<option value = "COR">Corea del Norte</option>
+		</optgroup>
+
+		</select>
+
+	</article>
+<article><label>País de residencia: </label>
+
+<select>
+		<option></option>
+		<option value ="ARG">Argentina</option>
+		<option value ="CHI">Chile</option>
+		<option value ="URU">Uruguay</option>
+		</select>
+
+	</article>
+
+<article>	
+<label> Provincia: </label>
+<!-- PEDIRLE A GPT QUE LO HAGA -->
+		<select>
+		<option></option>
+		<optgroup label="Argentina">
+		<option value ="ARG">CABA</option>
+		<option value ="CHI">Buenos Aires</option>
+		<option value ="URU">Jujuy</option>
+		<option value ="PER">Salta</option>
+		<option value ="BRA">Chaco</option>
+		<option value ="PAR">Formosa</option>
+		<option value ="BOL">Corrientes</option>
+		<option value ="COL">Misiones</option>
+		<option value ="VEN">Santiago del Estero</option>
+		<option value ="ECU">La Rioja</option>
+		<option value ="ECU">San Juan</option>
+		<option value ="ECU">San Luis</option>
+		<option value ="ECU">Córdoba</option>
+		<option value ="ECU">Catamarca</option>
+		<option value ="ECU">Santa Fe</option>
+		<option value ="ECU">Mendoza</option>
+		<option value ="ECU">Entre Ríos</option>
+		<option value ="ECU">Neuquén</option>
+		<option value ="ECU">La Pampa</option>
+		<option value ="ECU">Chubut</option>
+		<option value ="ECU">Santa Cruz</option>
+		<option value ="ECU">Tierra del Fuego</option>
+		<option value ="ECU">Tucumán</option>
+
+		</select>
+
+	</article>
+
+	<article>
+<label> Partido: </label>
+<!-- PEDIRLE A GPT QUE LO HAGA -->
+
+<select>
+<option></option>
+<option> General Pueyrredón</option>
+</select>
+</article>
+
+<article>
+<label> Ciudad: </label>
+<!-- PEDIRLE A GPT QUE LO HAGA -->
+
+
+
+<select>
+<option></option>
+<option> Mar del Plata </option>
+</select>
+</article>
+
+<article>
+<label> Tipo domicilio: </label>
+
+<select>
+<option></option>
+<option> Casa </option>
+<option> Departamento </option>
+<option> Pensión </option>
+</select>
+</article>
+
+
+<article><label> Calle: </label><input type = "text"></input></article>
+
+<article><label> Altura: </label><input type = "number"></input></article>
+
+<article><label> Piso: </label><input type = "text"></input></article>
+
+<article><label> Teléfono: </label><input type = "number" required></input></article>
+
+<article><label> Correo electrónico: </label><input type = "email" required ></input></article>
+
+<button  type = "submit"   class="enter button-1" > Registrarse </button>
+<button onclick="document.location='login.HTML'"  class="papita button-2"> Volver al inicio </button>
+
+</form>
+
+</div>
+
+</div>
+
+</BODY>
+ 
+</HTML>

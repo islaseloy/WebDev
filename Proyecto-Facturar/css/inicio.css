@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    color: #fff;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, #1a1e29, #000000);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-input-placeholder{
+    color: #eee;
+}
+
+.contenedor{
+    position: relative;
+    width: 800px;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid black;
+    background-color: black;
+    box-shadow: 10px 20px 30px 0 rgb(91, 168, 141);
+    animation: mymove  5s infinite;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 35px;
+}
+.inp{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+.input{
+    border:  none;
+    outline: none;
+    background: none;
+    width: 260px;
+    margin-top: 40px;
+    padding-right: 10px;
+    font-size: 17px;
+    color: white;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 100%;
+    background: linear-gradient(#01c38e, #05543f);
+    clip-path: polygon(0 0,100% 0,100% 100%,60% 100%);
+    padding-right: 70px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: sans-serif;
+    color:black;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 170px;
+    line-height: 50px;
+}
+.para{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    margin-top: 10px;
+    margin-left: 160px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+.submit{
+    border: 1px solid white;
+    outline: none;
+    width: 288px;
+    margin-top: 25px;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: #01c38e;
+        border: 1px solid #01c38e;
+    }
+}
+.footer{
+    margin: 30px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.link{
+    color:#01c38e ;
+    text-decoration: none    ;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px green;}
+  }

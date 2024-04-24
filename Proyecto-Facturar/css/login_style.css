@@ -1,0 +1,62 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+/* background:linear-gradient(rgba(41,237,154,1),rgba(0,0,0,1)); el degradado de color */
+background-image:url("../img/try.jpeg");
+background-position: center center;
+}
+
+h1{
+    color:rgb(41, 234, 154);
+    font-size: 50px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    margin-top:50px;
+    font-family: Impact;
+}
+
+.container{
+    margin:auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px rgb(41, 234, 154) solid;
+    border-radius: 20px;
+    width: 25%;
+    padding:10px;
+    background-color:rgba(0,0,0,0.7);
+}
+
+input,
+label{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+label{
+    color:white
+}
+
+button{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Trebuchet MS';
+    width:133px;
+    cursor: pointer;
+}
+.reg{
+    width:133px;
+}

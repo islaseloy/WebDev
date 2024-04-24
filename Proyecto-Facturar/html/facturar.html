@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturación</title>
+    <link rel="stylesheet" href="../css/Facturar.css">
+</head>
+<body>
+    <div class ="divheader">
+        <header>
+            <div class ="logo">
+                <a href="#">Loguito</a>
+            </div>
+            
+            <nav class = "navegador">
+            <ul>
+                <li><a href = "Clientes.html"> Clientes </a></li>
+                <li><a href = "proveedores.html"> Proveedores </a></li>
+                <li><a href = "empleados.html"> Empleados </a></li>
+                <li><a href = "stock.html"> Stock </a></li>
+                <li><a href = "facturar.html"> Facturar </a></li>
+                <li><a href = "principio.html"> Inicio </a></li>     
+            </ul>
+        </nav>
+        </header>
+    </div>
+
+    <div class = "container">
+    <main class ="principal">
+        <div class = "buscador">
+            <label>Buscador: </label><input type = "text" placeholder="Buscar producto...">
+        </div>
+        <div class = "pestaña">
+            <h4> VENTAS </h4>
+        </div>
+        <div class = "facturador">
+            <article><label for = "descuento">DESCUENTO: </label><input id = "descuento" type = "text" class ="facinput" placeholder="Descuento..."></article>
+            <article><label for = "CANT. FINAL" >CANT. FINAL: </label><input id = "CANT. FINAL" type = "text" class ="facinput" placeholder="Cant. total..."></article>
+            <article><label  for = "SUBTOTAL" >SUBTOTAL: </label><input id = "SUBTOTAL" type = "text" class ="facinput" placeholder="Subtotal..."></article>
+            <article><label For = " TOTAL ">TOTAL: </label><input id = "Total" type = "text" class ="facinput" placeholder="Descuento..."></article>
+        </div>
+        <div class = "operative">
+            <table>
+                <tr>
+                    <th>PRODUCTO</th>
+                    <th>MARCA</th>
+                    <th>CANTIDAD</th>
+                    <th>PRECIO</th>
+                    <th>DESCUENTO</th>
+                </tr>
+                <tr>
+                    <td>Leche x 1L</td>
+                    <td>La Serenísima</td>
+                    <td>2</td>
+                    <td>1000</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                    <td>Dulce de leche x 250 g</td>
+                    <td>Sancor</td>
+                    <td>1</td>
+                    <td>1850</td>
+                    <td>0%</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    </div>
+</body>
+</html>

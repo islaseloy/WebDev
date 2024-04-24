@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: linear-gradient(90deg, #000000, #132d46);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+main {
+    color: white;
+    min-height: 100vh; /* Asegura que el fondo se extienda al menos por toda la altura de la ventana [Fundamental]*/
+    align-items: center;
+    justify-content: top;
+    position: relative;
+}
+.container{
+    height: 600px;
+    padding: 20px 20px;
+}
+.buscador{
+    background-color: #1a1e29;
+    border: 1px solid #01c38e;
+    width: 650px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+.facturador{
+    background-color: #1a1e29;
+    border: 1px solid #01c38e;
+    width: 450px;
+    height: 250px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 1%;
+    position: relative;
+    margin-left: 65%;
+
+}
+.pestaña{
+    width: 450px;
+    background-color: #1a1e29;
+    border: 1px solid #01c38e;
+    width: 450px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: -3%;
+    position: absolute;
+    margin-left: 65%;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.operative{
+    width: 650px;
+    height: 250px;
+    padding: 10px 10px;
+    border: 2px solid #01c38e;
+    border-radius: 10px;
+    background-color: #1a1e29;
+    margin-top: -19%;
+    float:left;
+}
+th,
+td {
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+td{
+    color: black;
+}
+
+table{
+    background-color: #353836;
+    border: 1px solid #01c38e;
+    padding: 10px;
+    text-align: center;
+}
+
+button{
+    background-color:#01c38e; 
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    width:200px;
+}
+.divheader{
+    padding-top:5px;
+    padding-bottom: 10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:99;
+    background-color: #1a1e29;
+    border-bottom: 3px solid black;
+}
+.divheader header{
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.divheader header .logo a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+.divheader header ul{
+    display: flex;
+    list-style: none;
+}
+.divheader header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    font-size: 25px;
+}
+.divheader header nav ul li a:hover{
+    color: #01c38e;
+}
+.container{
+    margin-top:80px;
+}
+.buscador input{
+    color: white;
+    width: 520px;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+}
+.buscador input ::placeholder{
+    color:gray;
+}
+.facturador input{
+    background: transparent;
+    border: none;
+}
+
+.facturador label{
+    flex: 0 0 120px;
+    margin-right: 10px;
+    font-weight: bold;
+    color:white;
+}
+article{
+    border: 2px solid rgb(41, 234, 154);
+    padding:10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
